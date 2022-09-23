@@ -31,6 +31,6 @@ jobs:
         SSH_PRIVATE_KEY : ${{secrets.ALIYUN}}
         ARGS: "-rltgoDzvO --delete"
         SOURCE: "/"
-        REMOTE_HOST: "121.41.87.95"
+        REMOTE_HOST: ${{secrets.IP}}
         REMOTE_USER: "root"
-        TARGET: "/root/pixiv-server"
+        TARGET: ${{secrets.PATH}}
