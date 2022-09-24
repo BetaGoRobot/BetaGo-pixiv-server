@@ -33,4 +33,4 @@ jobs:
         SOURCE: "/"
         REMOTE_HOST: ${{secrets.IP}}
         REMOTE_USER: "root"
-        TARGET: ${{secrets.PATH}}
+        TARGET: "/root/pixiv-server"
